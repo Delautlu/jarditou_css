@@ -1,0 +1,63 @@
+nav,footer {
+    background-color: black;  
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:flex-start;
+    list-style: none ;
+}
+.menu{
+    display: flex;
+    justify-content:flex-start;
+    list-style: none;
+    height: 100%;
+}
+a{
+    color: aliceblue;
+    padding-right: 5px;
+}
+#h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font: size 50%;
+    display :flex;
+    justify-content: flex-end;
+}
+.entête{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 15px;
+}
+.logo{
+    width:20%;
+    height: auto;
+    display:flex;
+    margin-right: 30%;
+}
+
+article{
+    flex-direction: column;
+    width: 70%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.colonne{
+    background-color: grey;
+    text-align: left;
+    width: 30%;
+}
+.s1{
+    display: flex;
+}
+
+.list2{
+    display: flex;
+    justify-content:flex-start;
+    list-style: none;
+    height: 100%;
+}
+.promojpg{
+    box-sizing: border-box;
+    width: 100%;
+}
+.titre1{
+    border-bottom: 2px solid grey;
+}
