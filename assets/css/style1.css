@@ -61,3 +61,35 @@ article{
 .titre1{
     border-bottom: 2px solid grey;
 }
+
+/* Media screen à placer ici */
+@media screen and (max-width: 768px){
+	html{
+		font-size: 10px;
+	}
+	.colonne{
+		display:none;
+	}
+	article{
+		width: 100%;
+		font-size: 70%;
+	}
+	
+	.logo{
+		width: 40%;
+		height: auto;
+	}
+	.h1{
+		font-size: 80%;
+	}
+	.menu, .list2{
+		font-size: 80%;
+		display:flex;
+		flex-direction:column;
+		padding-left: 0%;
+		
+	}
+	.barbeuc{
+		width: 50px;
+	}
+}
